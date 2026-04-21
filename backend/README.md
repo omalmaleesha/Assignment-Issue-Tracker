@@ -11,6 +11,25 @@ A complete backend for an Issue Tracker application built with **Node.js**, **Ex
 - Validation (`Joi`)
 - Environment variables (`dotenv`)
 
+## Dependencies
+
+### Production Dependencies
+
+- `bcryptjs` `^2.4.3`
+- `cors` `^2.8.5`
+- `dotenv` `^16.4.5`
+- `express` `^4.19.2`
+- `joi` `^17.13.3`
+- `jsonwebtoken` `^9.0.2`
+- `morgan` `^1.10.0`
+- `mysql2` `^3.11.3`
+- `swagger-jsdoc` `^6.2.8`
+- `swagger-ui-express` `^5.0.1`
+
+### Development Dependencies
+
+- `nodemon` `^3.1.4`
+
 ## Environment Variables
 
 1. Copy `.env.example` to `.env`.
