@@ -28,7 +28,8 @@ const ensureIndex = async (connection, tableName, indexName, createQuery) => {
     `
       SELECT 1
       FROM information_schema.statistics
-      WHERE table_schema = ? AND table_name = ? AND index_name = ?
+      WHERE table_schema = ? AND table_name = ? AND index_name = ? 
+    
       LIMIT 1
     `,
     [process.env.DB_NAME, tableName, indexName]
